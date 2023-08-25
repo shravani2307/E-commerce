@@ -1,0 +1,306 @@
+{
+  "account": [
+    {
+      "name": "Ganesh",
+      "mobile": "9898789878",
+      "email": "s1@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "name": "Mukesh",
+      "mobile": "9898989898",
+      "email": "s2@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "name": "Shravani",
+      "mobile": "123456789",
+      "email": "shravani@gmail.com",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "product": [
+    {
+      "name": "HP Printer",
+      "price": "12000",
+      "photo": "1.jpg",
+      "details": "this is suitable for all purpose office and use",
+      "sellerid": "1",
+      "id": 1
+    },
+    {
+      "name": "Mango",
+      "price": "120",
+      "photo": "2.jpg",
+      "details": "this is best mango in india. it get export other country also.",
+      "sellerid": "1",
+      "id": 2
+    },
+    {
+      "name": "Orange",
+      "price": "80",
+      "photo": "3.jpg",
+      "details": "orange is full with vitamin c. suitable for all age people",
+      "sellerid": "1",
+      "id": 3
+    },
+    {
+      "name": "Grapes",
+      "price": "90",
+      "photo": "grapes.jpg",
+      "details": "this is imported grapes",
+      "sellerid": "2",
+      "id": 4
+    },
+    {
+      "name": "Banana",
+      "price": "40",
+      "photo": "banana.jpg",
+      "details": "this is sweet banana you should try once",
+      "sellerid": "2",
+      "id": 5
+    },
+    {
+      "name": "Mouse",
+      "price": "400",
+      "photo": "mouse.jpg",
+      "details": "this is very strong mouse",
+      "sellerid": "2",
+      "id": 6
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "45000",
+      "photo": "laptop.jpg",
+      "details": "this is very fast and durable laptop",
+      "sellerid": "2",
+      "id": 7
+    },
+    {
+      "name": "PHP Mysql Book",
+      "price": "400",
+      "photo": "php.jpg",
+      "details": "this book will make you backend developer",
+      "sellerid": "1",
+      "id": 8
+    }
+  ],
+  "cart": [
+    {
+      "name": "PHP Mysql Book",
+      "price": "400",
+      "photo": "php.jpg",
+      "details": "this book will make you backend developer",
+      "sellerid": "1",
+      "id": 8,
+      "qty": 2
+    },
+    {
+      "name": "Banana",
+      "price": "40",
+      "photo": "banana.jpg",
+      "details": "this is sweet banana you should try once",
+      "sellerid": "2",
+      "id": 5,
+      "qty": 2
+    },
+    {
+      "name": "Mouse",
+      "price": "400",
+      "photo": "mouse.jpg",
+      "details": "this is very strong mouse",
+      "sellerid": "2",
+      "id": 6,
+      "qty": 3
+    },
+    {
+      "name": "Orange",
+      "price": "80",
+      "photo": "3.jpg",
+      "details": "orange is full with vitamin c. suitable for all age people",
+      "sellerid": "1",
+      "id": 3,
+      "qty": 2
+    },
+    {
+      "name": "Dell Laptop",
+      "price": "45000",
+      "photo": "laptop.jpg",
+      "details": "this is very fast and durable laptop",
+      "sellerid": "2",
+      "id": 7,
+      "qty": 1
+    }
+  ],
+  "order": [
+    {
+      "customername": "Siyaram",
+      "mobile": "888888888",
+      "address": "bangalore",
+      "item": [
+        {
+          "name": "Orange",
+          "price": "80",
+          "photo": "3.jpg",
+          "details": "orange is full with vitamin c. suitable for all age people",
+          "sellerid": "1",
+          "id": 3,
+          "qty": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customername": "Sumith",
+      "mobile": "76789878987",
+      "address": "marathahalli bangalore 560037 near kalamandir",
+      "item": [
+        {
+          "name": "Mouse",
+          "price": "400",
+          "photo": "mouse.jpg",
+          "details": "this is very strong mouse",
+          "sellerid": "2",
+          "id": 6,
+          "qty": 2
+        },
+        {
+          "name": "Grapes",
+          "price": "90",
+          "photo": "grapes.jpg",
+          "details": "this is imported grapes",
+          "sellerid": "2",
+          "id": 4,
+          "qty": 3
+        },
+        {
+          "name": "Banana",
+          "price": "40",
+          "photo": "banana.jpg",
+          "details": "this is sweet banana you should try once",
+          "sellerid": "2",
+          "id": 5,
+          "qty": 2
+        }
+      ],
+      "id": 2
+    },
+    {
+      "customername": "Anil Kumar",
+      "mobile": "8789878987",
+      "address": "Pune Maharshtra",
+      "item": [
+        {
+          "name": "Banana",
+          "price": "40",
+          "photo": "banana.jpg",
+          "details": "this is sweet banana you should try once",
+          "sellerid": "2",
+          "id": 5,
+          "qty": 1
+        },
+        {
+          "name": "PHP Mysql Book",
+          "price": "400",
+          "photo": "php.jpg",
+          "details": "this book will make you backend developer",
+          "sellerid": "1",
+          "id": 8,
+          "qty": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "customername": "Suman Jee",
+      "mobile": "8798789878",
+      "address": "Delhi Sagar pur",
+      "item": [
+        {
+          "name": "Orange",
+          "price": "80",
+          "photo": "3.jpg",
+          "details": "orange is full with vitamin c. suitable for all age people",
+          "sellerid": "1",
+          "id": 3,
+          "qty": 2
+        },
+        {
+          "name": "Mouse",
+          "price": "400",
+          "photo": "mouse.jpg",
+          "details": "this is very strong mouse",
+          "sellerid": "2",
+          "id": 6,
+          "qty": 3
+        },
+        {
+          "name": "Banana",
+          "price": "40",
+          "photo": "banana.jpg",
+          "details": "this is sweet banana you should try once",
+          "sellerid": "2",
+          "id": 5,
+          "qty": 2
+        },
+        {
+          "name": "PHP Mysql Book",
+          "price": "400",
+          "photo": "php.jpg",
+          "details": "this book will make you backend developer",
+          "sellerid": "1",
+          "id": 8,
+          "qty": 2
+        }
+      ],
+      "id": 4
+    },
+    {
+      "customername": "Shravani",
+      "mobile": "123456789",
+      "address": "Khadpabandh",
+      "item": [
+        {
+          "name": "Orange",
+          "price": "80",
+          "photo": "3.jpg",
+          "details": "orange is full with vitamin c. suitable for all age people",
+          "sellerid": "1",
+          "id": 3,
+          "qty": 2
+        },
+        {
+          "name": "Mouse",
+          "price": "400",
+          "photo": "mouse.jpg",
+          "details": "this is very strong mouse",
+          "sellerid": "2",
+          "id": 6,
+          "qty": 3
+        },
+        {
+          "name": "Banana",
+          "price": "40",
+          "photo": "banana.jpg",
+          "details": "this is sweet banana you should try once",
+          "sellerid": "2",
+          "id": 5,
+          "qty": 2
+        },
+        {
+          "name": "PHP Mysql Book",
+          "price": "400",
+          "photo": "php.jpg",
+          "details": "this book will make you backend developer",
+          "sellerid": "1",
+          "id": 8,
+          "qty": 2
+        }
+      ],
+      "id": 5
+    }
+  ]
+}
